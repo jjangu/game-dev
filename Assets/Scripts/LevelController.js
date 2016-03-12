@@ -15,7 +15,7 @@ function Start () {
 
 public function addSpeed(speed:Number) {
     
-    if (levelSpeed < 10) {
+    if (levelSpeed < 20) {
         levelSpeed += speed;
     } 
     
