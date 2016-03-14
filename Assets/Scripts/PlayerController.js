@@ -7,13 +7,16 @@ public var upwardForce:Number;
 private var jumpUsed:boolean = false;
 private var bounced:boolean = true;
 private var LC:LevelController;
-private var mode = "jumping"; 
+private var mode = "jumping";
+private var facingRight;
 
 function Start () {
 	// Get level controller
     
     var levelControllerGameObject = GameObject.Find("LevelController");
     LC = levelControllerGameObject.GetComponent(LevelController);
+
+    facingRight = true;
     
     jumpHeight = LC.levelSpeed;
     Debug.Log(jumpHeight);
@@ -41,6 +44,12 @@ function FixedUpdate () {
     upwardForce = LC.levelSpeed;
 
 	var rb = GetComponent(Rigidbody2D);
+
+    var sprite = transform.Find("PlayerSprite");
+    var spriteAnimationController = sprite.GetComponent(Animator);
+    var horizontal : float = Input.GetAxis("Horizontal");
+
+    spriteAnimationController.SetBool("grounded", false);
     
     var rayStart = transform.position;
     rayStart.y -= 2.6;
@@ -61,9 +70,13 @@ function FixedUpdate () {
             rb.velocity.x += acceleration;
         }
 
+        
+
 		if ( (hitSomething1.collider && hitSomething1.collider.tag == "Ground" && hitSomething1.distance < 0.1) || 
            (hitSomething2.collider && hitSomething2.collider.tag == "Ground" && hitSomething2.distance < 0.1) || 
            (hitSomething3.collider && hitSomething3.collider.tag == "Ground" && hitSomething3.distance < 0.1)) {
+
+            spriteAnimationController.SetBool("grounded", true);
 
 			if ( !jumpUsed && Input.GetKey(KeyCode.UpArrow) ) {
                 
@@ -83,8 +96,24 @@ function FixedUpdate () {
             (hitSomething3.collider && hitSomething3.collider.tag == "SkyLevelTrigger" && hitSomething3.distance < 0.1)) {
 
 			Debug.Log("Sky Level Triggered");
+
+            spriteAnimationController.SetLayerWeight(2, 1);
+            sprite.transform.localScale = new Vector3(2.109102,2.109102,2.109102);
+
 			skyLevelTrigger();
-		}	
+		}
+
+        if ( (hitSomething1.collider && hitSomething1.collider.tag == "SpacesuitTrigger" && hitSomething1.distance < 0.1) ||
+            (hitSomething2.collider && hitSomething2.collider.tag == "SpacesuitTrigger" && hitSomething2.distance < 0.1) ||
+            (hitSomething3.collider && hitSomething3.collider.tag == "SpacesuitTrigger" && hitSomething3.distance < 0.1)) {
+
+            Debug.Log("Spacesuit triggered");
+            
+            spriteAnimationController.SetLayerWeight(1, 1);
+            sprite.transform.localScale = new Vector3(2.109102,2.109102,2.109102);
+
+
+        }   
 
 
 	} else if ( mode == "flying" ) {
@@ -109,4 +138,19 @@ function FixedUpdate () {
             useBounce();
         }
 	}
+
+    spriteAnimationController.SetFloat("speed", Mathf.Abs(horizontal));
+
+    if (horizontal > 0 && !facingRight || horizontal < 0 && facingRight) {
+        facingRight = !facingRight;
+        var theScale : Vector3 = transform.localScale;
+        theScale.x *= -1;
+        transform.localScale = theScale;
+    }
 } 
+
+
+
+
+
+

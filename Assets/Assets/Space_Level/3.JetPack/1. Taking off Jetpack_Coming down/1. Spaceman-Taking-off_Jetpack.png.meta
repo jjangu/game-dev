@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 33071cf9e6bfb4b5c902b746f0e70305
-timeCreated: 1456849807
+timeCreated: 1457930636
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -64,16 +64,16 @@ TextureImporter:
         y: 92
         width: 71
         height: 93
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5190395, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -35.5, y: -8.5}
-        - {x: -35.5, y: -46.5}
-        - {x: 35.5, y: -46.5}
-        - {x: 35.5, y: 46.5}
-        - {x: -25.5, y: 46.5}
-        - {x: -34.5, y: 0.5}
+      - - {x: -36.851807, y: -8.5}
+        - {x: -36.851807, y: -46.5}
+        - {x: 34.148193, y: -46.5}
+        - {x: 34.148193, y: 46.5}
+        - {x: -26.851807, y: 46.5}
+        - {x: -35.851807, y: 0.5}
     - name: 1. Spaceman-Taking-off_Jetpack_1
       rect:
         serializedVersion: 2
@@ -81,16 +81,16 @@ TextureImporter:
         y: 90
         width: 71
         height: 93
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.51269317, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -24.5, y: 46.5}
-        - {x: -35.5, y: 43.5}
-        - {x: -35.5, y: -46.5}
-        - {x: 35.5, y: -46.5}
-        - {x: 35.5, y: 32.5}
-        - {x: 26.5, y: 46.5}
+      - - {x: -25.401215, y: 46.5}
+        - {x: -36.401215, y: 43.5}
+        - {x: -36.401215, y: -46.5}
+        - {x: 34.598785, y: -46.5}
+        - {x: 34.598785, y: 32.5}
+        - {x: 25.598785, y: 46.5}
     - name: 1. Spaceman-Taking-off_Jetpack_2
       rect:
         serializedVersion: 2
@@ -98,15 +98,15 @@ TextureImporter:
         y: 81
         width: 71
         height: 96
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.51269317, y: 0.5234687}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -30.5, y: 48}
-        - {x: -35.5, y: 12}
-        - {x: -35.5, y: -48}
-        - {x: 35.5, y: -48}
-        - {x: 35.5, y: 48}
+      - - {x: -31.401215, y: 45.74701}
+        - {x: -36.401215, y: 9.747009}
+        - {x: -36.401215, y: -50.25299}
+        - {x: 34.598785, y: -50.25299}
+        - {x: 34.598785, y: 45.74701}
     - name: 1. Spaceman-Taking-off_Jetpack_3
       rect:
         serializedVersion: 2
@@ -114,16 +114,16 @@ TextureImporter:
         y: 84
         width: 71
         height: 130
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5063468, y: 0.6421119}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -30.5, y: 65}
-        - {x: -35.5, y: 64}
-        - {x: -35.5, y: -65}
-        - {x: 35.5, y: -65}
-        - {x: 35.5, y: 62}
-        - {x: 32.5, y: 65}
+      - - {x: -30.950623, y: 46.52545}
+        - {x: -35.950623, y: 45.52545}
+        - {x: -35.950623, y: -83.47455}
+        - {x: 35.049377, y: -83.47455}
+        - {x: 35.049377, y: 43.52545}
+        - {x: 32.049377, y: 46.52545}
     - name: 1. Spaceman-Taking-off_Jetpack_4
       rect:
         serializedVersion: 2
@@ -131,16 +131,16 @@ TextureImporter:
         y: 86
         width: 91
         height: 149
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.47149792, y: 0.6898958}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -26.5, y: 74.5}
-        - {x: -45.5, y: 42.5}
-        - {x: -45.5, y: -74.5}
-        - {x: 45.5, y: -74.5}
-        - {x: 45.5, y: 49.5}
-        - {x: 14.5, y: 74.5}
+      - - {x: -23.906311, y: 46.205536}
+        - {x: -42.90631, y: 14.205536}
+        - {x: -42.90631, y: -102.794464}
+        - {x: 48.09369, y: -102.794464}
+        - {x: 48.09369, y: 21.205536}
+        - {x: 17.093689, y: 46.205536}
     - name: 1. Spaceman-Taking-off_Jetpack_5
       rect:
         serializedVersion: 2
@@ -148,17 +148,17 @@ TextureImporter:
         y: 88
         width: 109
         height: 178
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.50648934, y: 0.7437353}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -45.5, y: 89}
-        - {x: -54.5, y: 52}
-        - {x: -54.5, y: -86}
-        - {x: -48.5, y: -89}
-        - {x: 54.5, y: -89}
-        - {x: 54.5, y: 25}
-        - {x: 30.5, y: 89}
+      - - {x: -46.207336, y: 45.615112}
+        - {x: -55.207336, y: 8.615112}
+        - {x: -55.207336, y: -129.38489}
+        - {x: -49.207336, y: -132.38489}
+        - {x: 53.792664, y: -132.38489}
+        - {x: 53.792664, y: -18.384888}
+        - {x: 29.792664, y: 45.615112}
     - name: 1. Spaceman-Taking-off_Jetpack_6
       rect:
         serializedVersion: 2
@@ -166,21 +166,21 @@ TextureImporter:
         y: 79
         width: 150
         height: 217
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.50628746, y: 0.78577}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 42, y: 57.5}
-        - {x: 28, y: 107.5}
-        - {x: 21, y: 108.5}
-        - {x: -25, y: 108.5}
-        - {x: -28, y: 106.5}
-        - {x: -75, y: -0.5}
-        - {x: -75, y: -95.5}
-        - {x: -65, y: -108.5}
-        - {x: 75, y: -108.5}
-        - {x: 75, y: -48.5}
-        - {x: 47, y: -30.5}
+      - - {x: 41.056885, y: -4.512085}
+        - {x: 27.056885, y: 45.487915}
+        - {x: 20.056885, y: 46.487915}
+        - {x: -25.943115, y: 46.487915}
+        - {x: -28.943115, y: 44.487915}
+        - {x: -75.943115, y: -62.512085}
+        - {x: -75.943115, y: -157.51208}
+        - {x: -65.943115, y: -170.51208}
+        - {x: 74.056885, y: -170.51208}
+        - {x: 74.056885, y: -110.512085}
+        - {x: 46.056885, y: -92.512085}
     outline: []
   spritePackingTag: 
   userData: 
