@@ -1,0 +1,258 @@
+fileFormatVersion: 2
+guid: a8789daf07bda43558a06e1b29898a93
+timeCreated: 1458089403
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Spaceman-Running_0
+    21300002: Spaceman-Running_1
+    21300004: Spaceman-Running_2
+    21300006: Spaceman-Running_3
+    21300008: Spaceman-Running_4
+    21300010: Spaceman-Running_5
+    21300012: Spaceman-Running_6
+    21300014: Spaceman-Running_7
+    21300016: Spaceman-Running_8
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Spaceman-Running_0
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 46
+        width: 104
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24, y: -24}
+        - {x: 29, y: -25}
+        - {x: 52, y: -5}
+        - {x: 52, y: 34}
+        - {x: 41, y: 46}
+        - {x: -5, y: 46}
+        - {x: -33, y: -1}
+        - {x: -37, y: -13}
+        - {x: -35, y: -11}
+        - {x: -40, y: -12}
+        - {x: -52, y: -26}
+        - {x: -52, y: -46}
+        - {x: 15, y: -46}
+        - {x: 29, y: -33}
+        - {x: 29, y: -29}
+        - {x: 22, y: -24}
+        - {x: 15, y: -24}
+    - name: Spaceman-Running_1
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 47
+        width: 76
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 47.5}
+        - {x: -31, y: 17.5}
+        - {x: -38, y: -2.5}
+        - {x: -38, y: -47.5}
+        - {x: 26, y: -47.5}
+        - {x: 38, y: -32.5}
+        - {x: 38, y: 47.5}
+    - name: Spaceman-Running_2
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 45
+        width: 82
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 40, y: 51.5}
+        - {x: 2, y: 51.5}
+        - {x: -34, y: 22.5}
+        - {x: -41, y: 1.5}
+        - {x: -41, y: -51.5}
+        - {x: 9, y: -51.5}
+        - {x: 41, y: -23.5}
+        - {x: 41, y: 49.5}
+    - name: Spaceman-Running_3
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 46
+        width: 88
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: 48}
+        - {x: -24, y: 5}
+        - {x: -28, y: -10}
+        - {x: -25, y: -15}
+        - {x: -22, y: -16}
+        - {x: -24, y: -15}
+        - {x: -30, y: -11}
+        - {x: -32, y: -10}
+        - {x: -44, y: -24}
+        - {x: -44, y: -35}
+        - {x: -36, y: -38}
+        - {x: -14, y: -48}
+        - {x: 24, y: -48}
+        - {x: 44, y: -11}
+        - {x: 44, y: 48}
+    - name: Spaceman-Running_4
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 46
+        width: 89
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 44.5, y: -19.5}
+        - {x: 44.5, y: 45.5}
+        - {x: 4.5, y: 45.5}
+        - {x: -44.5, y: -22.5}
+        - {x: -44.5, y: -45.5}
+        - {x: 29.5, y: -45.5}
+        - {x: 40.5, y: -35.5}
+        - {x: 36.5, y: -29.5}
+        - {x: 29.5, y: -24.5}
+        - {x: 43.5, y: -22.5}
+    - name: Spaceman-Running_5
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 46
+        width: 88
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 48}
+        - {x: -28, y: -8}
+        - {x: -28, y: -10}
+        - {x: -22, y: -16}
+        - {x: -32, y: -9}
+        - {x: -44, y: -25}
+        - {x: -44, y: -39}
+        - {x: -17, y: -48}
+        - {x: 24, y: -48}
+        - {x: 44, y: -2}
+        - {x: 44, y: 46}
+        - {x: 43, y: 48}
+    - name: Spaceman-Running_6
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 47
+        width: 84
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 50}
+        - {x: -30, y: 7}
+        - {x: -42, y: -23}
+        - {x: -42, y: -50}
+        - {x: 28, y: -50}
+        - {x: 42, y: -10}
+        - {x: 42, y: 50}
+    - name: Spaceman-Running_7
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 46
+        width: 76
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: 47.5}
+        - {x: -38, y: 6.5}
+        - {x: -38, y: -46.5}
+        - {x: -35, y: -47.5}
+        - {x: 11, y: -47.5}
+        - {x: 13, y: -43.5}
+        - {x: 38, y: -3.5}
+        - {x: 38, y: 47.5}
+    - name: Spaceman-Running_8
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 44
+        width: 89
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5.5, y: 45.5}
+        - {x: -39.5, y: -8.5}
+        - {x: -44.5, y: -18.5}
+        - {x: -44.5, y: -43.5}
+        - {x: -37.5, y: -45.5}
+        - {x: 35.5, y: -45.5}
+        - {x: 44.5, y: -27.5}
+        - {x: 44.5, y: 43.5}
+        - {x: 38.5, y: 45.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

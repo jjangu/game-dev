@@ -5,6 +5,8 @@ public var speed:int = 2;
 private var LC:LevelController;
 private var pickedUp:boolean = false;
 private var PC:PlayerController;
+private var GC:GameController;
+public var destroyOffset:float = 0.2;
 
 function Start () {
 
@@ -13,6 +15,9 @@ function Start () {
 
 	var playerControllerGameObject = GameObject.Find("Player");
 	PC = playerControllerGameObject.GetComponent(PlayerController);
+
+//	var CanvasGameObject = GameObject.Find("Canvas");
+//	GC = CanvasGameObject.GetComponent(GameController);
 }
 
 function Update () {
@@ -30,16 +35,20 @@ function OnTriggerEnter2D(other: Collider2D) {
 		pickedUp = true;
 
 		// disappear
-		Destroy(gameObject, 0.2);
+		Destroy(gameObject, destroyOffset);
 
 		// ding (visual / audio effect)
-		var animationController = transform.GetComponent(Animator);
-		animationController.enabled = true;
+		if (transform.GetComponent(Animation)) {
+			var animationController = transform.GetComponent(Animation);
+			animationController.enabled = true;
+		}
+		
 
 		// points
 		LC.addPoints(points);
 
 		// add to JumpHeight
 		LC.addSpeed(speed);
+
 	}
 }
